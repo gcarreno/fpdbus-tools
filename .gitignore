@@ -1,6 +1,7 @@
 # fpdbus-tools project specific
-bin/
-docs/
+/bin
+/docs
+/examples
 
 
 # Uncomment these types if you want even more clean repository. But be careful.

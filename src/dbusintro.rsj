@@ -1,0 +1,14 @@
+{"version":1,"strings":[
+{"hash":235232947,"name":"dbusintro.serrunknown","sourcebytes":[85,110,107,110,111,119,110,32,37,115,32,58,32,37,115],"value":"Unknown %s : %s"},
+{"hash":149700308,"name":"dbusintro.sargument","sourcebytes":[97,114,103,117,109,101,110,116],"value":"argument"},
+{"hash":121417556,"name":"dbusintro.smethod","sourcebytes":[109,101,116,104,111,100],"value":"method"},
+{"hash":127919228,"name":"dbusintro.ssignal","sourcebytes":[115,105,103,110,97,108],"value":"signal"},
+{"hash":180926405,"name":"dbusintro.sinterface","sourcebytes":[105,110,116,101,114,102,97,99,101],"value":"interface"},
+{"hash":157732553,"name":"dbusintro.sproperty","sourcebytes":[112,114,111,112,101,114,116,121],"value":"property"},
+{"hash":143622373,"name":"dbusintro.svariable","sourcebytes":[118,97,114,105,97,98,108,101],"value":"variable"},
+{"hash":480677,"name":"dbusintro.snode","sourcebytes":[110,111,100,101],"value":"node"},
+{"hash":14814062,"name":"dbusintro.serrnorootnode","sourcebytes":[82,111,111,116,32,110,111,100,101,32,34,110,111,100,101,34,32,110,111,116,32,102,111,117,110,100,46],"value":"Root node \"node\" not found."},
+{"hash":89883815,"name":"dbusintro.swarnunknownelement","sourcebytes":[85,110,107,110,111,119,110,32,101,108,101,109,101,110,116,32,34,37,115,34,32,105,110,32,100,101,102,105,110,105,116,105,111,110,32,111,102,32,37,115,32,34,37,115,34,46,32,73,103,110,111,114,105,110,103],"value":"Unknown element \"%s\" in definition of %s \"%s\". Ignoring"},
+{"hash":233284275,"name":"dbusintro.swarnunknowntypesignature","sourcebytes":[85,110,107,110,111,119,110,32,116,121,112,101,32,115,105,103,110,97,116,117,114,101,32,58,32,37,115],"value":"Unknown type signature : %s"},
+{"hash":219384867,"name":"dbusintro.swarnwrongdicttype","sourcebytes":[87,114,111,110,103,32,100,105,99,116,32,116,121,112,101,32,100,101,102,105,110,105,116,105,111,110,32,58,32,37,115],"value":"Wrong dict type definition : %s"}
+]}

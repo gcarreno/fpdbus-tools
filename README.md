@@ -12,7 +12,7 @@ The code is comprised of a set of pascal units that implement a Component wrappe
 
 - `dbuscomp.pp` DBUS component layer on top of the DBUS library.
 - `dbusintf.pp` DBUS standard interfaces: Introspectable, DBUS daemon and Properties.
-- `dbusintro.pas` DBUS Introspection and code generation components.
+- `dbusintro.pp` DBUS Introspection and code generation components.
 - `dbusproxy.pp` DBUS proxy component.
 
 The code also includes a set of code generation tools, both in GUI and CLI format:
