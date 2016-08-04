@@ -32,7 +32,10 @@ This gui tool depends on:
 
 This cli util has no dependencies in terms of packages.
 
-This is a command line utility that you can use in scripting. It does not have the visual aid to browse your exposed DBus services.
+This is a command line utility that you can use in scripting. 
+It does not have the visual aid to browse your exposed DBus services.
+You will have done so with a DBus debug tool like the above mentioned `fpdbusview` of [D-Feet](https://wiki.gnome.org/Apps/DFeet).
+Once you have the necessary information, you can use `dbus2pas` to generate ObjectPascal code to wrap around the service and ease it's use via a more OOP way.
 
 Here are the options to use dbus2pas.
 
