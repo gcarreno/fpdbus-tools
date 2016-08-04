@@ -10,15 +10,15 @@ I'm just re-arranging the code and adding some niceaties.
 
 The code is comprised of a set of pascal units that implement a Component wrapper around [DBus](https://dbus.freedesktop.org/):
 
-- `dbuscomp.pp` DBUS component layer on top of the DBUS library.
-- `dbusintf.pp` DBUS standard interfaces: Introspectable, DBUS daemon and Properties.
-- `dbusintro.pp` DBUS Introspection and code generation components.
-- `dbusproxy.pp` DBUS proxy component.
+- `src/dbuscomp.pp` DBUS component layer on top of the DBUS library.
+- `src/dbusintf.pp` DBUS standard interfaces: Introspectable, DBUS daemon and Properties.
+- `src/dbusintro.pp` DBUS Introspection and code generation components.
+- `src/dbusproxy.pp` DBUS proxy component.
 
 The code also includes a set of code generation tools, both in GUI and CLI format:
 
-- `fpdbusview` GUI tool for exploring and exporting code for both System and Session services.
-- `dbus2pas` CLI tools for exporting code for both System and Session services.
+- `gui/fpdbusview` GUI tool for exploring and exporting code for both System and Session services.
+- `cli/dbus2pas` CLI tools for exporting code for both System and Session services.
 
 ###fpdbusview
 
