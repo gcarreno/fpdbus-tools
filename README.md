@@ -63,7 +63,7 @@ Usage: dbus2pas options
 
 ###Examples
 
-```
+```shell
 dbus2pas -p /org/freedesktop/Notifications \
     -o org_freedesktop_Notifications.pas \
     -d org.freedesktop.Notifications \
