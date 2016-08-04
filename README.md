@@ -22,15 +22,17 @@ The code also includes a set of code generation tools, both in GUI and CLI forma
 
 ##fpdbusview
 
-(needs explanation of what is, what it does ans how it does it)
-
 This gui tool depends on:
 - LCL
 - SynEdit (For the preview of the generated code)
 
+(needs explanation of what is, what it does ans how it does it)
+
 ##dbus2pas
 
 This cli util has no dependencies in terms of packages.
+
+This is a command line utility that you can use in scripting. It does not have the visual aid to browse your exposed DBus services.
 
 Here are the options to use dbus2pas.
 
