@@ -6,7 +6,7 @@ The author of this code is [Michaël Van Canneyt](mailto:michael@freepascal.org)
 
 I'm just re-arranging the code and adding some niceaties.
 
-###What does it contain?
+##What does it contain?
 
 The code is comprised of a set of pascal units that implement a Component wrapper around [DBus](https://dbus.freedesktop.org/):
 
@@ -20,11 +20,11 @@ The code also includes a set of code generation tools, both in GUI and CLI forma
 - `gui/fpdbusview` GUI tool for exploring and exporting code for both System and Session services.
 - `cli/dbus2pas` CLI tools for exporting code for both System and Session services.
 
-###fpdbusview
+##fpdbusview
 
 (needs explanation of what is, what it does ans how it does it)
 
-###dbus2pas
+##dbus2pas
 
 Here are the options to use dbus2pas.
 
@@ -49,3 +49,14 @@ Usage: dbus2pas options
     -k | --keywordprefix=p      Prefix for pascal identifier names
     -x | --xmlfile=N            Write introspection XML to file (only with -d)
 ```
+
+###Examples
+
+```
+dbus2pas -p /org/freedesktop/Notifications \
+    -o org_freedesktop_Notifications.pas \
+    -d org.freedesktop.Notifications \
+    -u org_freedesktop_Notifications \
+    -c GenerateInterface,GenerateProxy,UseFunction,LastPartInterfaceName
+```
+This will create a file called `org_freedesktop_Notifications.pas` containing code with an Interface and a Proxy to the org.freedesktop.Notifications service.
