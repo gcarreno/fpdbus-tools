@@ -24,7 +24,13 @@ The code also includes a set of code generation tools, both in GUI and CLI forma
 
 (needs explanation of what is, what it does ans how it does it)
 
+This gui tool depends on:
+- LCL
+- SynEdit (For the preview of the generated code)
+
 ##dbus2pas
+
+This cli util has no dependencies in terms of packages.
 
 Here are the options to use dbus2pas.
 
