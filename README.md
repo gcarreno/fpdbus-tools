@@ -22,7 +22,11 @@ The code also includes a set of code generation tools, both in GUI and CLI forma
 
 ###fpdbusview
 
+(needs explanation of what is, what it does ans how it does it)
+
 ###dbus2pas
+
+Here are the options to use dbus2pas.
 
 ```
 Usage: dbus2pas options
@@ -34,7 +38,7 @@ Usage: dbus2pas options
     -d | --destination=D        destination service to connect to
     -f | --file=N               file to read XML from
     -u | --unitname=N           unitname (equals output if not set)
-    -c | --codeoptions=N        Set code generation options. Comma-separated list of
+    -c | --codeoptions=N        Set code generation options. Comma-separated list of:
         GenerateInterface       Generate interface declaration
         GenerateProxy           Generate proxy declaration
         ProxyHasInterface       Proxy implements interface
