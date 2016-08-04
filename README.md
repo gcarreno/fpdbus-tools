@@ -1,6 +1,6 @@
 # fpdbus-tools
 
-##Free Pascal DBus and Code Generation Tools
+##Free Pascal DBus Wrapper and Code Generation Tools
 
 The author of this code is [Michaël Van Canneyt](mailto:michael@freepascal.org).
 
