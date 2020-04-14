@@ -4,6 +4,10 @@
 
 The author of this code is [Michaël Van Canneyt](mailto:michael@freepascal.org).
 
+You can find the code and the article he wrote about it [here](https://www.freepascal.org/~michael/articles/#dbus2).
+
+That page contains a real treasure trove of information and source code.
+
 I'm just re-arranging the code and adding some niceaties.
 
 ## What does it contain?
@@ -32,7 +36,7 @@ This gui tool depends on:
 
 This cli util has no dependencies in terms of packages.
 
-This is a command line utility that you can use in scripting. 
+This is a command line utility that you can use in scripting.
 It does not have the visual aid to browse your exposed DBus services.
 You will have done so with a DBus debug tool like the above mentioned `fpdbusview` or [D-Feet](https://wiki.gnome.org/Apps/DFeet).
 Once you have the necessary information, you can use `dbus2pas` to generate ObjectPascal code to wrap around the service and ease it's use via a more OOP way.
