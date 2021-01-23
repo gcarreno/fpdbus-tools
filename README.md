@@ -43,7 +43,7 @@ Once you have the necessary information, you can use `dbus2pas` to generate Obje
 
 Here are the options to use dbus2pas.
 
-```
+```man
 Usage: dbus2pas options
 
     -h | --help                 print this help message
