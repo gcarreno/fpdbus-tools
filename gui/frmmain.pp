@@ -410,6 +410,7 @@ end;
 Function TMainForm.ObjectpathFromNode(N : TTreeNode) : String;
 
 begin
+  Result:='';
   While (N<>Nil) do
     begin
     Result:=N.Text+Result;
@@ -639,11 +640,10 @@ Var
   I : Integer;
   S,D : String;
   N : TTreeNode;
-  V : TDBUSvarDef;
 begin
   S:=DBUSPascalTypeNames[AProperty.DataType];
-  If (V.DataType=ddtArray) then
-    S:=S+DBUSPascalTypeNames[V.ElementType];
+  If (AProperty.DataType=ddtArray) then
+    S:=S+' of '+DBUSPascalTypeNames[AProperty.ElementType];
   Case AProperty.Access of
     dpaRead : S:=S+' (read-only)';
     dpaWrite : S:=S+' (write-only)';

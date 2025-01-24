@@ -75,3 +75,5 @@ dbus2pas -p /org/freedesktop/Notifications \
     -c GenerateInterface,GenerateProxy,UseFunction,LastPartInterfaceName
 ```
 This will create a file called `org_freedesktop_Notifications.pas` containing code with an Interface and a Proxy to the org.freedesktop.Notifications service.
+
+You will need to include `org_freedesktop_Notifications.pas` and `dbusproxy.pp` in your project.

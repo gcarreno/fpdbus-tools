@@ -1418,6 +1418,7 @@ begin
   LA:=AMethod.Arguments.Count-1;
   If IsF then
     isf:=(La>=0) and (AMethod.Arguments[LA].Direction=adOut);
+  Result:='';
   For I:=0 to AMethod.Arguments.Count-1-Ord(Isf) do
     begin
     If (Result<>'') then
